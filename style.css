@@ -1,0 +1,119 @@
+
+/*couleur de fond*/
+body{
+    background-color:white;
+}
+/*typo*/
+header {
+    font-family: Arial;
+    position: relative; 
+}
+
+/*barre de navigation*/
+header nav {
+    color:#FFFFFF;
+}
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0 ,0, 0, 0.8);
+}
+header nav ul li{
+    margin: 0;
+    padding: 0;
+    /* float: left; */
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    /* background-color:rgba(0 ,0, 0, 0.8); */
+}
+header nav ul li a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background-color: rgb(8, 8, 8);
+    opacity: 0.5;
+}
+header nav ul li ul li{
+    display: none;
+}
+header nav ul li:hover ul li{
+    display: block;
+}
+
+/*premiere page*/
+h1{
+    text-align: center;
+}
+#Bienvenue{
+    text-align: center;
+}
+.First{
+    display: flex;
+}
+.One{
+    flex: 1;
+    display: block; 
+    text-align: center; 
+    align-content: center;
+    margin-top: 10%;
+}
+
+img{ 
+    max-width: 80%;
+}
+h2{
+    text-align: center;
+}
+.Second{
+    display: flex;
+}
+
+    /* Saitama */
+.Third{
+    display: flex;
+}
+.sommaire{
+    width: 300px;
+    margin-top: 20px;
+    display: table;
+    padding: 5px;
+    border: 1px solid #a3a3a3;
+    vertical-align: baseline;
+    text-align: center;
+}
+.caractéristiques{
+    margin: 1em;
+    padding: 5px;
+    display: block;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-start;
+}
+.damn{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-car {
+    display: flex;
+}
+.sub-car h3{
+    flex: 1;
+}
+.sub-car p{
+    flex: 1;
+}
+.Apparence{
+    text-align: center;
+}
